@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your CV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #010f30, #1c416c), url('https://example.com/your-galaxy-background.jpg');
+            background-size: cover;
+            color: #fff;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid white;
+            transition: transform 0.3s;
+        }
+        .photo:hover {
+            transform: scale(1.1);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">My CV</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="text-center">
+        <img src="https://i.imgur.com/As5Den9.jpeg" class="photo mb-4">
+        <h1>Syeifh Fahma Salsabila</h1>
+        <p>Student</p>
+    </div>
+
+    <div id="about" class="card mt-5 p-4">
+        <h2>About Me</h2>
+        <p>Hello! I'm Fahma, an English Education student, I have a provision of education, language and social sciences. I was also quite active in the organization and programs on campus, so I'm familiar with the use of technology and building relationships. I'm open to learning new things and I accept any job, freelance, internship, or volunteer to do while studying.</p>
+    </div>
+
+    <div id="education" class="card mt-4 p-4">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Senior High School</strong>: SMAN 2 Purwakarta (2018-2021)</li>
+            <li><strong>Bachelor's Degree </strong>: IKIP Siliwangi Name (2022-now)</li>
+        </ul>
+    </div>
+
+    <div id="experience" class="card mt-4 p-4">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Scout</strong>: as a member and event committee (2018)</li>
+            <li><strong>English Student Association</strong>: as a functionary (2023)</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="card mt-4 p-4">
+        <h2>Contact</h2>
+        <p>Email: syeifahma.salsa@gmail.com</p>
+        <p>LinkedIn: <a href="Your Profile" class="text-light">https://www.linkedin.com/in/syeifh-fahma-salsabila-7638ba216</a></p>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
